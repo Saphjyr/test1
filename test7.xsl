@@ -3,7 +3,7 @@
 <body>
   <h2>Files in Current Directory</h2>
   <ul>
-    <xsl:variable name="files" select="php:function('scandir', '.')"/>
+    <xsl:variable name="files" select="php:function('array_map', 'strval', php:function('scandir', '.'))"/>
     <xsl:for-each select="$files">
       <li><xsl:value-of select="."/></li>
     </xsl:for-each>
